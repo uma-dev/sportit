@@ -71,6 +71,44 @@ body {
     border-radius: 30px;
 }
 
+.employee__container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+
+.employee__container h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.employee__card__container {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    gap: 1em;
+}
+
+.employee__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 1em 2em;
+    color:#8C8C94;
+}
+
+.employee__card .profile {
+    position: relative;
+    top: -50px;
+}
+
+.employee__name {
+    color: #3F4868;
+}
 
 footer {
     background: #1E1E26;
@@ -106,7 +144,8 @@ footer input {
 .footer__row {
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .footer__items__links {
@@ -118,4 +157,11 @@ footer input {
 .media__icons {
     display: flex;
     gap: 0.5em;
+}
+
+footer .copyright {
+    margin-top: 3em;
+    width: 100%;
+    text-align: right;
+    color: #8C8C94;
 }
