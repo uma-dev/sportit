@@ -25,7 +25,7 @@ header nav ul {
 }
 
 header nav a {
-  color: #242E52;
+  color: #242e52;
 }
 
 body {
@@ -66,10 +66,51 @@ body {
   padding: 5% 10%;
   background: #8b48bf;
   color: white;
+  gap: 2em;
 }
 
 .box__container__color h2 {
   font-size: 36px;
+}
+
+.textcard__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 5% 5%;
+  background-color: #fafafa;
+  gap: 5em;
+}
+
+.card__name {
+  color: #3f4868;
+}
+
+.card__description {
+  color: #8c8c94;
+}
+
+.text__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+    padding-right: 3em;
+}
+
+.text__card .card__description{ 
+    position: relative;
+    left: 90px;
+ }
+
+.text__card__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    position: relative;
 }
 
 .button__purple {
@@ -77,6 +118,14 @@ body {
   padding: 1em 2em;
   background: #8b48bf;
   color: white;
+  border-radius: 30px;
+}
+
+.button__white {
+    border: none;
+  padding: 1em 2em;
+  background: white;
+  color:#8b48bf;
   border-radius: 30px;
 }
 
@@ -107,13 +156,8 @@ body {
   text-align: center;
   gap: 1em;
   padding: 0em 2em;
-  color: #8c8c94;
   position: relative;
   top: -30px;
-}
-
-.employee__name {
-  color: #3f4868;
 }
 
 footer {
