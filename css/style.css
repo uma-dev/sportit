@@ -24,6 +24,10 @@ header nav ul {
   gap: 2em;
 }
 
+header nav a {
+  color: #242E52;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,15 +40,20 @@ body {
 }
 
 .container__item {
+  display: flex;
   width: 50%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .text {
   text-align: right;
   display: flex;
   flex-direction: column;
-  padding-left: 100px;
+  padding-left: 80px;
   justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 .text h2 {
@@ -55,113 +64,110 @@ body {
   display: flex;
   flex-direction: row;
   padding: 5% 10%;
-  background: #8B48BF;
+  background: #8b48bf;
   color: white;
 }
 
 .box__container__color h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .button__purple {
-    border: none;
-    padding: 1em 2em;
-    background:#8B48BF;
-    color:white;
-    border-radius: 30px;
+  border: none;
+  padding: 1em 2em;
+  background: #8b48bf;
+  color: white;
+  border-radius: 30px;
 }
 
 .employee__container {
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4em;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
 }
 
 .employee__container h3 {
-    font-size: 40px;
-    margin-bottom: 40px;
+  font-size: 40px;
+  margin-bottom: 60px; /*compensate height of position relative in img*/
 }
 
 .employee__card__container {
-    display: flex;
-    flex-direction: row;
-    background-color: #FAFAFA;
-    gap: 1em;
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+  gap: 1em;
 }
 
 .employee__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1em;
-    padding: 1em 2em;
-    color:#8C8C94;
-}
-
-.employee__card .profile {
-    position: relative;
-    top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  padding: 0em 2em;
+  color: #8c8c94;
+  position: relative;
+  top: -30px;
 }
 
 .employee__name {
-    color: #3F4868;
+  color: #3f4868;
 }
 
 footer {
-    background: #1E1E26;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 5% 10%;
-    justify-content: space-around;
-    align-items: center;
+  background: #1e1e26;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 10%;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer input {
-    border-radius: 15px;
-    height: 3em;
-    padding: 1%;
+  border-radius: 15px;
+  height: 3em;
+  padding: 1%;
 }
 
 .footer__items {
-    display: flex;
-    gap:2em;
+  display: flex;
+  gap: 2em;
 }
 
 .footer__items__column {
-    display: flex;
-    flex-direction: column;
-    gap:2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .footer__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3em;
 }
 
 .footer__items__links {
-    display: flex;
-    flex-direction: row;
-    gap:15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .media__icons {
-    display: flex;
-    gap: 0.5em;
+  display: flex;
+  gap: 0.5em;
 }
 
 footer .copyright {
-    margin-top: 3em;
-    width: 100%;
-    text-align: right;
-    color: #8C8C94;
+  margin-top: 3em;
+  width: 100%;
+  text-align: right;
+  color: #8c8c94;
 }
