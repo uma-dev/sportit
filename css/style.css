@@ -93,24 +93,24 @@ body {
 }
 
 .text__card {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    width: 40%;
-    padding-right: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 40%;
+  padding-right: 3em;
 }
 
-.text__card .card__description{ 
-    position: relative;
-    left: 90px;
- }
+.text__card .card__description {
+  position: relative;
+  left: 90px;
+}
 
 .text__card__title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1em;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  position: relative;
 }
 
 .button__purple {
@@ -122,10 +122,10 @@ body {
 }
 
 .button__white {
-    border: none;
+  border: none;
   padding: 1em 2em;
   background: white;
-  color:#8b48bf;
+  color: #8b48bf;
   border-radius: 30px;
 }
 
