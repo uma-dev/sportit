@@ -81,7 +81,7 @@ body {
   align-content: space-around;
   padding: 5% 5%;
   background-color: #fafafa;
-  gap: 5em;
+  gap: 3em;
 }
 
 .card__name {
@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   gap: 1em;
   width: 40%;
-  padding-right: 3em;
+  padding-right: 5em;
 }
 
 .text__card .card__description {
