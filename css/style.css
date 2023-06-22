@@ -70,3 +70,52 @@ body {
     color:white;
     border-radius: 30px;
 }
+
+
+footer {
+    background: #1E1E26;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer input {
+    border-radius: 15px;
+    height: 3em;
+    padding: 1%;
+}
+
+.footer__items {
+    display: flex;
+    gap:2em;
+}
+
+.footer__items__column {
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.footer__items__links {
+    display: flex;
+    flex-direction: row;
+    gap:15em;
+}
+
+.media__icons {
+    display: flex;
+    gap: 0.5em;
+}
