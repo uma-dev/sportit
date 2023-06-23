@@ -282,14 +282,14 @@ footer .copyright {
   /* General */
   i {
     visibility: visible;
-    color:#1e1e26;
+    color: #1e1e26;
   }
 
   .hidden {
     display: none;
   }
 
-  .before__text{
+  .before__text {
     display: block;
   }
 
@@ -347,11 +347,19 @@ footer .copyright {
   .text__card .unhidden {
     display: block;
     position: absolute;
+    z-index: 1;
     right: 0px;
     height: 44px;
-    width: 80%;
+    width: 88%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     background: rgba(139, 72, 191, 0.3);
   }
+
+  .text__card .button__purple {
+    z-index: 3;
+  }
+
   .container__broad {
     padding: 40px 100px;
     gap: 3em;
