@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5% 5%;
+  padding: 5% 0;
 }
 
 header nav ul {
@@ -26,6 +26,11 @@ header nav ul {
 
 header nav a {
   color: #242e52;
+  font-size: 13px;
+}
+
+header nav a:hover {
+  color: rgba(36, 46, 82, 0.6);
 }
 
 body {
@@ -44,7 +49,7 @@ body {
   width: 50%;
   text-align: left;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .text {
@@ -53,7 +58,7 @@ body {
   flex-direction: column;
   padding-left: 80px;
   justify-content: space-evenly;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .text h2 {
@@ -63,14 +68,19 @@ body {
 .box__container__color {
   display: flex;
   flex-direction: row;
-  padding: 5% 10%;
+  padding: 40px 200px;
   background: #8b48bf;
   color: white;
-  gap: 2em;
+  gap: 5em;
 }
 
 .box__container__color h2 {
   font-size: 36px;
+}
+
+.container__broad {
+  margin-top: 5em;
+  padding: 65px 164px;
 }
 
 .textcard__container {
@@ -95,7 +105,7 @@ body {
 .text__card {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0.5em;
   width: 40%;
   padding-right: 5em;
 }
@@ -118,15 +128,27 @@ body {
   padding: 1em 2em;
   background: #8b48bf;
   color: white;
-  border-radius: 30px;
+  border-radius: 50px;
+}
+
+.button__purple:hover {
+  background: rgba(139, 72, 191, 0.7);
 }
 
 .button__white {
   border: none;
-  padding: 1em 2em;
+  padding: 1em 3em;
   background: white;
   color: #8b48bf;
-  border-radius: 30px;
+  border-radius: 50px;
+}
+
+.button__shadow {
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button__broad {
+  padding: 1em 3em;
 }
 
 .employee__container {
@@ -165,17 +187,23 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 2em 10%;
+  padding: 2em 170px;
 }
 
 footer a {
-  color: white;
+  color: #fff;
+  font-size: 16px;
 }
 
 footer input {
-  border-radius: 15px;
+  border-radius: 50px;
+  border: none;
   height: 3em;
-  padding: 1%;
+  padding: 1em;
+}
+
+footer .logo {
+  width: 110px;
 }
 
 .footer__items {
@@ -183,18 +211,21 @@ footer input {
   gap: 2em;
 }
 
+footer .column li{
+  margin-bottom: 12px;
+}
+
 .footer__items__column {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  justify-content: space-around;
 }
 
 .footer__row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  gap: 3em;
+  gap: 8em;
 }
 
 .footer__items__links {
@@ -206,12 +237,13 @@ footer input {
 
 .media__icons {
   display: flex;
-  gap: 0.5em;
+  gap: 1em;
 }
 
 footer .copyright {
   margin-top: 3em;
   width: 100%;
   text-align: right;
+  font-size: 12.5px;
   color: #8c8c94;
 }
