@@ -46,18 +46,22 @@ body {
   display: flex;
   flex-direction: row;
   padding: 5% 10%;
+  text-align: right;
+  gap: 10%;
 }
 
-.container__item {
-  display: flex;
-  width: 50%;
-  text-align: left;
-  align-items: center;
-  justify-content: flex-end;
+.box__container h2 {
+  font-size: 46px;
 }
 
 .hero__image {
   width: 100%;
+}
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .text {
@@ -76,20 +80,25 @@ body {
 .box__container__color {
   display: flex;
   flex-direction: row;
-  padding: 40px 200px;
+  padding: 40px 150px;
   background: #8b48bf;
   color: white;
-  gap: 5em;
+  gap: 4em;
 }
 
 .box__container__color h2 {
   font-size: 36px;
+  width: 100%;
 }
 
 .container__broad {
   margin-top: 5em;
   padding: 65px 164px;
   justify-content: space-between;
+}
+
+.container__broad h2 {
+  width: 40%;
 }
 
 .textcard__container {
@@ -115,7 +124,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  width: 40%;
+  width: 500px;
   padding-right: 5em;
 }
 
@@ -165,12 +174,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4em;
+  gap: 3em;
 }
 
 .employee__container h3 {
   font-size: 40px;
-  margin-bottom: 60px; /*compensate height of position relative in img*/
+  margin-bottom: 70px; /*compensate height of position relative in img*/
 }
 
 .employee__card__container {
@@ -275,23 +284,65 @@ footer .copyright {
 
   .box__container {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     gap: 2em;
+  }
+
+  .hero__image {
+    padding-bottom: 20px;
+  }
+
+  .hero__description {
+    gap: 2em;
+  }
+
+  .employee__container {
+    padding: 3em 2em;
   }
 
   .box__container__color {
     flex-direction: column;
     align-items: center;
+    padding: 40px 2em;
     background: #3cddf3;
   }
 
   .textcard__container {
     flex-direction: column;
+    padding: 4em 3em;
+    background-color: white;
+    gap: 2.5em;
+    width: 100%;
+  }
+
+  .text__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+    padding-right: 0;
+  }
+
+  .text__card .card__description {
+    left: 0px;
+    width: 100%;
+  }
+  
+  .text__card__title{
+    background: rgba(139, 72, 191, 0.30);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
 
   .container__broad {
     padding: 40px 100px;
     gap: 3em;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .container__broad h2 {
+    width: 80%;
   }
 
   .container__item {
