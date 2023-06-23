@@ -28,6 +28,10 @@ i {
   visibility: hidden;
 }
 
+.before__text {
+  display: none;
+}
+
 header nav a {
   color: #242e52;
   font-size: 13px;
@@ -278,11 +282,15 @@ footer .copyright {
   /* General */
   i {
     visibility: visible;
-    color: #8b48bf;
+    color:#1e1e26;
   }
 
   .hidden {
     display: none;
+  }
+
+  .before__text{
+    display: block;
   }
 
   /* Header */
