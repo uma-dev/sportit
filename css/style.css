@@ -24,6 +24,10 @@ header nav ul {
   gap: 2em;
 }
 
+i {
+  visibility: hidden;
+}
+
 header nav a {
   color: #242e52;
   font-size: 13px;
@@ -52,13 +56,17 @@ body {
   justify-content: flex-end;
 }
 
+.hero__image {
+  width: 100%;
+}
+
 .text {
   text-align: right;
   display: flex;
   flex-direction: column;
   padding-left: 80px;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .text h2 {
@@ -81,6 +89,7 @@ body {
 .container__broad {
   margin-top: 5em;
   padding: 65px 164px;
+  justify-content: space-between;
 }
 
 .textcard__container {
@@ -187,7 +196,7 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 2em 170px;
+  padding: 2em 10%;
 }
 
 footer a {
@@ -208,10 +217,10 @@ footer .logo {
 
 .footer__items {
   display: flex;
-  gap: 2em;
+  gap: 1em;
 }
 
-footer .column li{
+footer .column li {
   margin-bottom: 12px;
 }
 
@@ -225,7 +234,7 @@ footer .column li{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 8em;
+  gap: 10%;
 }
 
 .footer__items__links {
@@ -246,4 +255,86 @@ footer .copyright {
   text-align: right;
   font-size: 12.5px;
   color: #8c8c94;
+}
+
+/* Media query for mobile */
+@media (max-width: 480px) {
+  /* General */
+  i {
+    visibility: visible;
+    color: #8b48bf;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  /* Header */
+
+  /* Main */
+
+  .box__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .box__container__color {
+    flex-direction: column;
+    align-items: center;
+    background: #3cddf3;
+  }
+
+  .textcard__container {
+    flex-direction: column;
+  }
+
+  .container__broad {
+    padding: 40px 100px;
+    gap: 3em;
+  }
+
+  .container__item {
+    text-align: center;
+  }
+
+  .button__white {
+    background: #232c50;
+    color: white;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 40px 50px;
+  }
+
+  footer input {
+    width: 100%;
+  }
+
+  .footer__row {
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
+
+  .footer__items__column {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 3em;
+    padding: 1em 0px;
+  }
+
+  .footer__items__links {
+    padding: 0 2em;
+  }
+
+  .media__icons {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  footer .copyright {
+    text-align: center;
+  }
 }
