@@ -2,8 +2,9 @@
 
 This repository contains a landing page with responsive design, built using pure HTML and CSS. The goal of this project is to create a performant website that adapts to different screen sizes and devices.
 
-![web](https://github.com/uma-dev/sportit/assets/22565959/7c534ffd-e8da-4d19-b1c6-82a7846f3a0b)
-
+<p align="center">
+  <img src="https://github.com/uma-dev/sportit/assets/22565959/7c534ffd-e8da-4d19-b1c6-82a7846f3a0b"> 
+</p>
 
 ## Features
 
@@ -52,4 +53,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Acknowledgements
 
 - The responsive design techniques used in this project were inspired by various online resources and tutorials.
-
