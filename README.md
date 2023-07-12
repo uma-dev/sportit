@@ -2,6 +2,9 @@
 
 This repository contains a landing page with responsive design, built using pure HTML and CSS. The goal of this project is to create a performant website that adapts to different screen sizes and devices.
 
+![web](https://github.com/uma-dev/sportit/assets/22565959/7c534ffd-e8da-4d19-b1c6-82a7846f3a0b)
+
+
 ## Features
 
 - **Responsive Design:** The landing page is designed to be mobile-first and responsive, ensuring a seamless user experience across different devices and screen sizes.
@@ -15,6 +18,10 @@ This repository contains a landing page with responsive design, built using pure
 To use this landing page, simply clone the repository to your local machine:
 
 Once cloned, you can open the `index.html` file in your preferred web browser to view the landing page.
+
+<p align="center">
+  <img src="https://github.com/uma-dev/sportit/assets/22565959/5aec286c-d608-4eb0-a7ca-d4b8f64aee73"> 
+</p>
 
 ## Customization
 
